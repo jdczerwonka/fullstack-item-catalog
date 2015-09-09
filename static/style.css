@@ -1,0 +1,48 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #666666;
+	background-color: #bbc3cc;
+	margin: 0;
+	top: 0;
+}
+
+.navbar {
+	width: 100%;
+  	z-index: 1000;
+  	min-height: 30px;
+  	background: #000040;
+  	position: fixed;
+	z-index: 1030;
+	padding: 10px 0;
+}
+
+.navbar-header {
+	float: left;
+}
+
+.navbar-brand {
+	float: left;
+  	font-size: 24px;
+  	font-weight: 500;
+  	color: white;
+  	line-height: 20px;
+ 	text-decoration: none;
+ 	padding: 15px 0;
+}
+
+.login-button {
+	color: white;
+	background-color: #ee7600;
+	float: right;
+	width: 75px;
+	height: 30px;
+	border: none;
+	padding: 0;
+	margin: 10px 0;
+}
+
+.container {
+    margin: 0 auto;
+	padding: 0 20px;
+	max-width: 960px;
+}
