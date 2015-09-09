@@ -2,4 +2,12 @@
 {% block content %}
 {% include "header.html" %}
 
+	<div class="main">
+		<div class="container">
+			{% for activity in activities %}
+				<a href = "/">{{activity.name}}</a>
+			{% endfor %}
+		</div>
+	</div>
+
 {% endblock %}

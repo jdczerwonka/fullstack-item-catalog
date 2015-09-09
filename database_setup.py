@@ -23,7 +23,7 @@ class Equipment(Base):
     __tablename__ = 'equipment'
 
     id = Column(Integer, primary_key = True)
-    name =Column(String(80), nullable = False)
+    name = Column(String(80), nullable = False)
     description = Column(String(250))
     activity_id = Column(Integer,ForeignKey('activity.id'))
     activity = relationship(Activity)
